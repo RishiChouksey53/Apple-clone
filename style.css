@@ -243,3 +243,31 @@ body {
     overflow: auto;
     padding: 0.6rem 0 4rem;
 }
+@media (max-width:950px) {
+    .global-header {
+        overflow: hidden;
+    }
+    .main-body .row {
+        width: 100%;
+    }
+    .main-body .row-box1 p{
+        width: 100%;
+        font-size: 2rem;
+    }
+    .main-body {
+        .row-box1{
+            padding: 0;
+        }
+        .rb2 {
+            padding: 1rem 0;
+        }
+    }
+    .offer p {
+        padding: 0 1rem;
+    }
+}
+
+.main-body .row {
+    display: flex;
+    flex-wrap: wrap;
+}
