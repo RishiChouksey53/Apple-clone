@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #1d1d1f;
+  font-family: "Roboto", sans-serif;
+}
+
+/* .accessories {
+  width: 19.563rem;
+  padding: 1.875rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  a {
+    text-decoration: none;
+  }
+}
+.acc-card img {
+  width: 100%;
+}
+.acc-card {
+  padding-top: 2.563rem;
+}
+
+.acc-body1 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 1.188rem 0 0.875rem;
+  li img {
+    height: 0.75rem;
+  }
+  li {
+    margin-right: 0.313rem;
+  }
+}
+#acc-s1 {
+  display: block;
+  color: #b64400;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+#acc-s2 {
+  font-size: 1rem;
+  font-weight: 550;
+}
+.acc-body2 {
+  font-size: 0.875rem;
+  margin-top: 3rem;
+}
+.acc1 img {
+  max-height: 250px;
+}
+.store {
+  width: 19.563rem;
+  height: 31.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 1.25rem;
+}
+.store-box {
+  width: 19.563rem;
+  height: 15rem;
+  position: relative;
+}
+.store-box img {
+  border-radius: 1.5rem;
+  height: 100%;
+}
+.content {
+  position: absolute;
+  top: 0;
+  padding: 1.875rem 1.875rem 0;
+  p {
+    color: #fff0d2;
+    font-size: 1.5rem;
+    font-weight: 550;
+  }
+  .svg img {
+    color: #fff0d2;
+    height: 100%;
+  }
+}
+.apple-exp-box {
+  margin-right: 1.25rem;
+  height: 31.25rem;
+  width: 25rem;
+  position: relative;
+}
+.apple-exp-box img {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+.content2 {
+  position: absolute;
+  top: 0;
+  padding: 1.875rem;
+  h3 {
+    font-size: 0.75rem;
+    color: #fff0d2;
+  }
+  p {
+    color: #fff0d2;
+    font-size: 1.75rem;
+    font-weight: 525;
+  }
+  sup {
+    color: #fff0d2;
+  }
+}
+.apple-store {
+  display: flex;
+}
+ */
+
+.apple-exp-box {
+  padding-left: 1.25rem;
+  width: 30rem;
+  position: relative;
+}
+.apple-exp-box img {
+  width: 100%;
+  height: 31.25rem;
+  border-radius: 1.5rem;
+}
+.exp-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25rem;
+  height: 12.5rem;
+  padding: 1.875rem;
+  h3 {
+    font-size: 0.75rem;
+    color: #fff0d2;
+  }
+  p {
+    color: #fff0d2;
+    font-size: 1.75rem;
+    font-weight: 525;
+  }
+  sup {
+    color: #fff0d2;
+  }
+}
+
+.apple-experience {
+  display: flex;
+  flex-direction: row;
+}

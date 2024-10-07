@@ -12,7 +12,7 @@ body {
 }
 
 .main-body {
-  padding: 0 1.5rem;
+  padding: 0 rem;
 }
 
 .global-header {
@@ -326,4 +326,171 @@ body {
 }
 #acc-1 img {
   height: 33rem;
+}
+
+.store {
+  width: 19.563rem;
+  height: 31.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 1.25rem;
+}
+.store-box {
+  width: 19.563rem;
+  height: 15rem;
+  position: relative;
+  transition: 0.2s;
+}
+.store-box img {
+  border-radius: 1.5rem;
+  height: 100%;
+}
+.content {
+  position: absolute;
+  top: 0;
+  padding: 1.875rem 1.875rem 0;
+  p {
+    color: #fff0d2;
+    font-size: 1.5rem;
+    font-weight: 550;
+  }
+  .svg img {
+    color: #fff0d2;
+    height: 100%;
+  }
+}
+.store2-box {
+  margin-right: 1.25rem;
+  height: 31.25rem;
+  width: 25rem;
+  position: relative;
+  transition: 0.2s;
+}
+.store2-box img {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+.content2 {
+  position: absolute;
+  top: 0;
+  padding: 1.875rem;
+  h3 {
+    font-size: 0.75rem;
+    color: #fff0d2;
+  }
+  p {
+    color: #fff0d2;
+    font-size: 1.75rem;
+    font-weight: 525;
+  }
+  sup {
+    color: #fff0d2;
+  }
+}
+.apple-store {
+  display: flex;
+  padding-bottom: 3.375rem;
+  margin: 0 1.25rem;
+}
+.store-box:hover {
+  transform: scale(1.01);
+}
+.store2-box:hover {
+  transform: scale(1.01);
+}
+.store-foot {
+  padding-bottom: 0.875rem;
+  margin: 0 1.375rem;
+  p {
+    color: #8405cd;
+    font-size: 1.75rem;
+  }
+  span {
+    color: #6a696d;
+    font-size: 1.75rem;
+  }
+}
+
+.apple-exp-box {
+  padding-left: 1.25rem;
+  width: 30rem;
+  position: relative;
+}
+.apple-exp-box img {
+  width: 100%;
+  height: 31.25rem;
+  border-radius: 1.5rem;
+}
+.exp-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25rem;
+  padding: 1.875rem;
+  h3 {
+    font-size: 0.75rem;
+    color: #fff0d2;
+  }
+  p {
+    color: #fff0d2;
+    font-size: 1.75rem;
+    font-weight: 525;
+  }
+  sup {
+    color: #fff0d2;
+  }
+}
+
+.apple-experience {
+  display: flex;
+  flex-direction: row;
+  padding: 0.6rem 0 2.5rem 0;
+}
+.quick-links {
+  padding-left: 1.25rem;
+  h2 {
+    font-size: 1.75rem;
+    padding-bottom: 1.25rem;
+  }
+  a {
+    font-size: 0.875rem;
+    text-decoration: none;
+  }
+  button {
+    padding: 0.5rem 0.938rem;
+    border-radius: 1.5rem;
+    border: 1px solid #1d1d1f;
+  }
+}
+.quick-links ul {
+  display: inline-flex;
+  padding: 0 0 1.688rem;
+  li {
+    list-style-type: none;
+    padding: 0 0.5rem 0.6rem 0;
+  }
+}
+
+.desc {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-left: 1.25rem;
+  p {
+    padding-top: 0.625rem;
+    color: #0000008f;
+  }
+  a {
+    color: #0000008f;
+  }
+}
+
+.foot-nav p {
+  padding-left: 1.25rem;
+  line-height: 3.438rem;
+  font-size: 0.75rem;
+  color: #000000b8;
+  i {
+    font-size: 1rem;
+  }
 }
