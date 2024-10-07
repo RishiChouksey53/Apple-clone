@@ -269,5 +269,8 @@ body {
         display: flex;
         flex-wrap: wrap;
     }
+    body {
+        overflow: none;
+    }
 }
 
