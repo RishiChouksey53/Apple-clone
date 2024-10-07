@@ -265,9 +265,9 @@ body {
     .offer p {
         padding: 0 1rem;
     }
+    .main-body .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
-.main-body .row {
-    display: flex;
-    flex-wrap: wrap;
-}
