@@ -188,6 +188,7 @@ body {
   position: relative;
   display: inline-block;
   transition: 0.2s;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .card-container img {
@@ -358,10 +359,12 @@ body {
 }
 
 .store-box {
+  border-radius: 1.5rem;
   width: 19.563rem;
   height: 15rem;
   position: relative;
   transition: 0.2s;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .store-box img {
@@ -453,9 +456,15 @@ body {
   padding-left: 1.25rem;
   width: 30rem;
   position: relative;
+  border-radius: 1.5rem;
+  transition: 0.2s;
+}
+.apple-exp-box:hover {
+  transform: scale(1.01);
 }
 
 .apple-exp-box img {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   width: 100%;
   height: 31.25rem;
   border-radius: 1.5rem;
@@ -464,7 +473,7 @@ body {
 .exp-content {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 1.25rem;
   width: 25rem;
   padding: 1.875rem;
 
@@ -591,7 +600,7 @@ body {
 }
 
 .global-footer {
-  padding: 2.313rem 0 1.25rem 0.65rem;
+  padding: 2.313rem 0 0.65rem;
 
   #gfp1 {
     font-size: 0.75rem;
