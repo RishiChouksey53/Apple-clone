@@ -76,12 +76,16 @@ body {
   font-size: 0.875rem;
   color: #1d1d1f;
 }
+.offer sup {
+  font-size: 0.5rem;
+}
 
 .row {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 1.25rem;
 }
 
 .row-box1 {
@@ -91,7 +95,7 @@ body {
 }
 
 .row-box1 p {
-  width: 600px;
+  max-width: 38rem;
   font-size: 3rem;
   color: #6a696d;
 }
@@ -136,7 +140,12 @@ body {
 .row-box2 {
   width: 40%;
 }
-
+@media (max-width: 950px) {
+  .row-box2 {
+    width: fit-content;
+    float: left;
+  }
+}
 .card img {
   width: 100%;
   height: auto;
@@ -163,7 +172,7 @@ body {
 .card-div {
   display: flex;
   overflow: auto;
-  padding: 0.6rem 0 4rem;
+  padding: 0.6rem 0 1.25rem 4rem;
 }
 
 .title {
@@ -507,14 +516,18 @@ body {
   }
 
   a {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     text-decoration: none;
   }
 
   button {
-    padding: 0.5rem 0.938rem;
+    padding: 0.5rem 0.838rem;
     border-radius: 1.5rem;
     border: 1px solid #1d1d1f;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 .quick-links button:hover {
@@ -563,6 +576,7 @@ body {
 }
 
 .directory {
+  overflow: hidden;
   display: flex;
   padding: 0.6rem 0 4rem 1.25rem;
 
@@ -597,7 +611,6 @@ body {
 .directory li a:hover {
   text-decoration: underline;
 }
-
 .global-footer {
   padding: 2.313rem 0 0.65rem;
 
@@ -641,4 +654,31 @@ body {
   max-width: 61.25rem;
   margin: 0 auto;
   padding: 0 1.25rem;
+}
+
+@media (max-width: 640px) {
+  .directory div {
+    width: 100%;
+  }
+  .directory {
+    padding: 0;
+  }
+  #dir-ul {
+    display: none;
+  }
+  .directory li {
+    border-bottom: 0.5px solid #cececf;
+    border-top: 0.4px solid #cececf;
+    span {
+      color: #1d1d1f;
+    }
+  }
+  .global-footer {
+    padding: 0;
+    padding-bottom: 1.25rem;
+  }
+  .row-box2 {
+    float: left;
+    left: 0;
+  }
 }
