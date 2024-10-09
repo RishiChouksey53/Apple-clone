@@ -357,8 +357,12 @@ body {
   margin-top: 3rem;
 }
 
+#acc-1 {
+  height: 33.519rem;
+  border-radius: 1.5rem;
+}
 #acc-1 img {
-  height: 33rem;
+  height: 100%;
 }
 
 .store {
@@ -699,7 +703,7 @@ body {
   }
 }
 @media (min-width: 1050px) {
-  .main-body {
-    padding-left: 5%;
+  .container {
+    padding-left: 4%;
   }
 }
