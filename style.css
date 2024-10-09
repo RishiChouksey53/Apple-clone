@@ -698,3 +698,8 @@ body {
     left: 0;
   }
 }
+@media (min-width: 1050px) {
+  .main-body {
+    padding-left: 5%;
+  }
+}
